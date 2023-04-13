@@ -1,0 +1,35 @@
+
+{  
+  "brand-purple": {
+    "$type": "color",
+    "$value": "#801B7A"
+  },
+  "primary-cta": {
+    "$type": "color",
+    "$value": "#E03ED7"
+  },
+  "secondary": {
+    "$type": "color",
+    "$value": "#89D3FF"
+  },
+  "pure-white": {
+    "$type": "color",
+    "$value": "#FFFFFF"
+  },
+  "textcolor-dark": {
+    "$type": "color",
+    "$value": "#000000"
+  },
+  "Display": {
+    "$type": "fontFamily",
+    "$value": "Bungee (400)"
+  },
+  "Body": {
+    "$type": "fontFamily",
+    "$value": "Open Sans"
+  },
+  "font-weight-default": {
+    "$value": 400,
+    "$type": "fontWeight"
+  }
+}
