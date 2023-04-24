@@ -1,50 +1,52 @@
 {
-  "font-weight-default": {
-    "$type": "fontWeight",
-    "$value": 400
+  "font": {
+    "weight": {
+      "default": {
+        "$type": "fontWeight",
+        "$value": 400
+      }
+    },
+    "style": {
+      "body": {
+        "$value": "Open Sans",
+        "$type": "fontFamily"
+      },
+      "display": {
+        "$value": "Bungee (400)",
+        "$type": "fontFamily"
+      }
+    }
   },
-  "Body": {
-    "$type": "fontFamily",
-    "$value": "Open Sans"
+  "color": {
+    "primary": {
+      "$type": "color",
+      "$value": "#E03ED7"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "#801B7A"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "#89D3FF"
+    },
+    "pure-white": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "dark": {
+      "$type": "color",
+      "$value": "#000000"
+    }
   },
-  "Display": {
-    "$type": "fontFamily",
-    "$value": "Bungee (400)"
-  },
-  "textcolor-dark": {
-    "$type": "color",
-    "$value": "#000000"
-  },
-  "pure-white": {
-    "$type": "color",
-    "$value": "#FFFFFF"
-  },  
-"secondary": {
-    "$type": "color",
-    "$value": "#801B7A"
-  },
-  "accent": {
-    "$type": "color",
-    "$value": "#89D3FF"
-  },
-  "primary-cta": {
-    "$type": "color",
-    "$value": "#E03ED7"
-  },
-  "dark": {
-    "$type": "color",
-    "$value": "#000000"
-  },
-  "display": {
-    "$type": "fontFamily",
-    "$value": "Bungee (400)"
-  },
-  "body": {
-    "$type": "fontFamily",
-    "$value": "Open Sans"
-  },
-  "font-weight-default": {
-    "$value": 400,
-    "$type": "fontWeight"
+  "button": {
+    "primary":{
+      "background": {
+        "$value": "{color.primary}",
+      },
+      "title": {
+        "$value": "{font.default}"
+      }
+    }
   }
 }
