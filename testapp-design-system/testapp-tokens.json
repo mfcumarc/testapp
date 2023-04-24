@@ -1,8 +1,23 @@
-
-{  
-  "primary": {
+{
+  "font-weight-default": {
+    "$type": "fontWeight",
+    "$value": 400
+  },
+  "Body": {
+    "$type": "fontFamily",
+    "$value": "Open Sans"
+  },
+  "Display": {
+    "$type": "fontFamily",
+    "$value": "Bungee (400)"
+  },
+  "textcolor-dark": {
     "$type": "color",
-    "$value": "#E03ED7"
+    "$value": "#000000"
+  },
+  "pure-white": {
+    "$type": "color",
+    "$value": "#FFFFFF"
   },  
 "secondary": {
     "$type": "color",
@@ -12,9 +27,9 @@
     "$type": "color",
     "$value": "#89D3FF"
   },
-  "pure-white": {
+  "primary-cta": {
     "$type": "color",
-    "$value": "#FFFFFF"
+    "$value": "#E03ED7"
   },
   "dark": {
     "$type": "color",
