@@ -1,0 +1,30 @@
+{
+  "font": {
+    "Display": {
+      "family": {
+        "value": "Bungee"
+      },
+      "weight": {
+        "value": "400"
+      }
+    },
+    "Body": {
+      "family": {
+        "value": "Open Sans"
+      },
+      "weight": {
+        "value": "400"
+      }
+    }
+  },
+  "size": {
+    "font": {
+      "Display": {
+        "value": "48px"
+      },
+      "Body": {
+        "value": "18px"
+      }
+    }
+  }
+}

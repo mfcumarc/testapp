@@ -1,0 +1,12 @@
+{
+  "color": {
+    "brand purple": {
+      "value": "#801B7Aff",
+      "comment": "Our main brand purple, commonly used in display type."
+    },
+    "primary cta": {
+      "value": "#E03ED7ff",
+      "comment": "This is the primary button color in active or \"link\" state."
+    }
+  }
+}

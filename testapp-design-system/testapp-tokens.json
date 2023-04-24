@@ -1,14 +1,14 @@
 
 {  
-  "brand-purple": {
+  "primary": {
+    "$type": "color",
+    "$value": "#E03ED7"
+  },  
+"secondary": {
     "$type": "color",
     "$value": "#801B7A"
   },
-  "primary-cta": {
-    "$type": "color",
-    "$value": "#E03ED7"
-  },
-  "secondary": {
+  "accent": {
     "$type": "color",
     "$value": "#89D3FF"
   },
@@ -16,15 +16,15 @@
     "$type": "color",
     "$value": "#FFFFFF"
   },
-  "textcolor-dark": {
+  "dark": {
     "$type": "color",
     "$value": "#000000"
   },
-  "Display": {
+  "display": {
     "$type": "fontFamily",
     "$value": "Bungee (400)"
   },
-  "Body": {
+  "body": {
     "$type": "fontFamily",
     "$value": "Open Sans"
   },
