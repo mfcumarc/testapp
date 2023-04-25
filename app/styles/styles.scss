@@ -44,7 +44,7 @@ h1, h2 {
 
 h1 {
   margin-bottom: 24px;
-  color: variables.$color-font-base-light;
+  color: variables.$font-base-light;
   text-align: center;
   font-size: 48px;
 }
@@ -58,7 +58,7 @@ nav.main-nav {
   background-repeat: no-repeat;
   background-position: 0 10px;
   padding-left: 60px;
-  color: variables.$color-font-base-light;
+  color: variables.$font-base-light;
   float: left;
   text-align: right;
   font-family: "Bungee", serif;
@@ -141,7 +141,7 @@ nav.main-nav {
 button {
   font-family: "Bungee", serif;
   font-size: 18px;
-  color: variables.$color-font-base-light;
+  color: variables.$font-base-light;
   padding: 0 10px;
   width: 100%;
   line-height: 48px;
