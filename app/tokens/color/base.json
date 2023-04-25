@@ -1,0 +1,13 @@
+{
+  "color": {
+    "base": {
+      "primary": { "value": "#E03ED7" },
+      "secondary": { "value": "#801B7A" },
+      "accent": { "value": "#89D3FF" },
+      "pure-white": {"value": "#FFFFFF"},
+      "dark": {"value": "#000000"}
+    }
+  }
+}
+
+
