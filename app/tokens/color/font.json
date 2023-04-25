@@ -1,0 +1,17 @@
+{
+  "color": {
+    "font": {
+      "base": {
+        "dark": { "value": "{color.base.dark.value}"},
+        "light": { "value": "{color.base.pure-white}"}
+      },
+      "display": {
+        "light": { "value": "{color.base.accent.value}"},
+        "dark": {"value": "{color.base.secondary.value}"}
+      }
+    }
+  }
+}
+
+
+

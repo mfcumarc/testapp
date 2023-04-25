@@ -1,0 +1,295 @@
+/* CSS reset styles */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Page styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.container-960 {
+  margin: auto;
+  width: 960px;
+  overflow: hidden;
+}
+
+h1, h2 {
+  font-family: "Bungee", Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 24px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 48px;
+}
+
+.navbar {
+  background-color: #e03ed7;
+}
+
+nav.main-nav {
+  background-image: url(../img/logo-m.png);
+  background-repeat: no-repeat;
+  background-position: 0 10px;
+  padding-left: 60px;
+  color: #ffffff;
+  float: left;
+  text-align: right;
+  font-family: "Bungee", serif;
+  text-transform: uppercase;
+  height: 60px;
+  line-height: 60px;
+}
+nav.main-nav a {
+  font-size: 18px;
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+nav.main-nav a.active {
+  border-bottom: solid 2px #ffffff !important;
+}
+nav.main-nav a:link, nav.main-nav a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: solid 2px transparent;
+}
+nav.main-nav a:hover, nav.main-nav nav.main-nav a:active {
+  color: #89d3ff;
+  text-decoration: none;
+}
+
+.social {
+  float: right;
+  margin-top: 10px;
+}
+
+.home .headline {
+  padding-top: 12%;
+}
+.home .hero {
+  background-image: url("../img/audience.jpg");
+}
+
+.experience .hero {
+  background-image: url("../img/hero-experience.jpg");
+}
+
+.location .hero {
+  background-image: url("../img/hero-location.jpg");
+}
+
+.hero {
+  height: 600px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.hero h1, .hero h2 {
+  color: #ffffff;
+}
+.hero h1 {
+  font-size: 28px;
+  margin: 24px 0 0;
+}
+.hero h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin: 12px 0 24px;
+  font-size: 18px;
+}
+
+.headline {
+  color: #ffffff;
+  margin: auto;
+  text-align: center;
+  padding-top: 25%;
+}
+.headline .logo {
+  width: 80%;
+}
+
+button {
+  font-family: "Bungee", serif;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0 10px;
+  width: 100%;
+  line-height: 48px;
+  border: none;
+  background-color: #e03ed7;
+  transition: all 0.3s;
+}
+
+button:hover, button:active {
+  background-color: #89d3ff;
+}
+
+.cta {
+  padding: 0 60px;
+  line-height: 56px;
+  width: auto;
+}
+
+.moozedoo {
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+}
+
+.lineup {
+  padding: 60px 0 80px;
+  font-family: "Bungee", serif;
+  color: #89d3ff;
+  text-align: center;
+  font-size: 24px;
+  background: rgb(175, 60, 171);
+  background: url(../img/bg-lineup.png), -webkit-linear-gradient(50deg, rgb(175, 60, 171) 0%, rgb(128, 27, 122) 83%);
+}
+
+.lineup h1 {
+  color: #89D3FF;
+}
+
+.headliners, .features {
+  background: url(../img/bg-salmon.png);
+  padding: 60px 0;
+}
+
+.bands {
+  float: left;
+}
+
+.band-card {
+  height: 400px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.title-bar {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  width: 632px;
+  padding: 0 16px;
+}
+.title-bar .band-name {
+  font: normal 24px/50px "Bungee", serif;
+  float: left;
+}
+
+.title-bar .night {
+  font: normal 300 18px/50px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  float: right;
+}
+
+.tickets {
+  float: right;
+  width: 280px;
+}
+
+.pkg {
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 0 20px 20px;
+}
+
+.pkg-header {
+  background-color: #801B7A;
+  color: #fff;
+  font: normal 18px/32px "Bungee", Serif;
+  padding: 10px 0 0 12px;
+  margin: 0 -20px 28px;
+}
+
+.pkg-price {
+  margin: 0 0 10px;
+  font: normal 44px/44px "Bungee", Serif;
+}
+
+.pkg-desc {
+  font: normal 300 24px/32px "Open Sans", sans-serif;
+}
+
+.pkg-charges {
+  font: normal 300 14px/16px "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #801B7A;
+  color: #FFAAFA;
+  padding: 48px 0;
+  text-align: center;
+}
+
+.footer-text * {
+  display: inline-block;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+.footer-text img {
+  margin-right: 12px;
+}
+
+/* Second level pages */
+.main-content {
+  background-color: #F1F1F1;
+}
+
+.pull-text p {
+  font: 700 24px/32px "Open Sans", sans-serif;
+  padding: 32px 0;
+}
+
+.feature {
+  width: 470px;
+  color: #fff;
+  font: 300 18px/24px "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.feature:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.feature img {
+  vertical-align: bottom;
+}
+
+.feature h2 {
+  font: normal 36px/36px "Bungee", serif;
+  margin-bottom: 8px;
+}
+
+.description {
+  background-color: #801B7A;
+  width: 100%;
+  padding: 20px;
+}
