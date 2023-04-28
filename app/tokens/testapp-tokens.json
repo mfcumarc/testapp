@@ -1,0 +1,49 @@
+{
+  "font": {
+    "$description": "Font tokens.",
+    "family": {
+      "$description": "Font families.",
+      "$type": "fontFamily",
+        "display": { "$value": "Bungee" },
+        "default": { "$value": "Open Sans" }
+    },
+    "weight": {
+      "$description": "Font weights.",
+      "$type": "fontWeight",
+        "light": { "$value": 300 },
+        "default": { "$value": 400 },
+        "bold": { "$value": 700 },
+        "display": { "$value": 400 }
+     },
+     "size": {
+      "$description": "Font sizes.",
+      "$type": "fontSize",
+        "display-one-dark": { "$value": 48 },
+        "display-one-light": { "$value": 48 },
+        "display-two-dark": { "$value": 44 },
+        "display-three-light": { "$value": 28 },
+        "title-card-lg-light": { "$value": 36 },
+        "title-thin-dark": { "$value": 24 },
+        "title-light": { "$value": 18 },
+        "detail-text-dark-lg": { "$value": 18 },
+        "detail-text-dark": { "$value": 14 },
+        "paragraph-light": { "$value": 18 }
+    }
+  },
+  "color": {
+    "$description": "Base color tokens.",
+    "$type": "color",
+      "primary": { "$value": "#E03ED7"  },
+      "secondary": { "$value": "#801B7A"  },
+      "accent": { "$value": "#89D3FF"  },
+      "pure-white": { "$value": "#FFFFFF"  },
+      "dark": { "$value": "#000000"  }
+  },
+  "buttons": {
+    "$description": "Base font size tokens.",
+    "primary":{
+      "background": { "$value": "{color.primary}" },
+      "title-weight": { "$value": "{font.weight.default}" }
+    }
+  }
+}
