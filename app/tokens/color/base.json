@@ -4,7 +4,7 @@
       "primary": { "value": "#E03ED7" },
       "secondary": { "value": "#801B7A" },
       "accent": { "value": "#89D3FF" },
-      "pure-white": {"value": "#FFFFFF"},
+      "pure-white": {"value": "yellow"},
       "dark": {"value": "#000000"}
     }
   }

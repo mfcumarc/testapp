@@ -40,7 +40,7 @@ h1, h2 {
 
 h1 {
   margin-bottom: 24px;
-  color: #ffffff;
+  color: #ffff00;
   text-align: center;
   font-size: 48px;
 }
@@ -54,7 +54,7 @@ nav.main-nav {
   background-repeat: no-repeat;
   background-position: 0 10px;
   padding-left: 60px;
-  color: #ffffff;
+  color: #ffff00;
   float: left;
   text-align: right;
   font-family: "Bungee", serif;
@@ -68,10 +68,10 @@ nav.main-nav a {
   transition: all 0.3s;
 }
 nav.main-nav a.active {
-  border-bottom: solid 2px #ffffff !important;
+  border-bottom: solid 2px #ffff00 !important;
 }
 nav.main-nav a:link, nav.main-nav a:visited {
-  color: #ffffff;
+  color: #ffff00;
   text-decoration: none;
   border-bottom: solid 2px transparent;
 }
@@ -109,7 +109,7 @@ nav.main-nav a:hover, nav.main-nav nav.main-nav a:active {
   background-position: center;
 }
 .hero h1, .hero h2 {
-  color: #ffffff;
+  color: #ffff00;
 }
 .hero h1 {
   font-size: 28px;
@@ -123,7 +123,7 @@ nav.main-nav a:hover, nav.main-nav nav.main-nav a:active {
 }
 
 .headline {
-  color: #ffffff;
+  color: #ffff00;
   margin: auto;
   text-align: center;
   padding-top: 25%;
@@ -135,7 +135,7 @@ nav.main-nav a:hover, nav.main-nav nav.main-nav a:active {
 button {
   font-family: "Bungee", serif;
   font-size: 18px;
-  color: #ffffff;
+  color: #ffff00;
   padding: 0 10px;
   width: 100%;
   line-height: 48px;

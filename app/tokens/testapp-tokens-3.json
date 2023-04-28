@@ -1,0 +1,52 @@
+{
+  "typography": {
+    "size": {
+      "base": {        
+        "$value": 400,
+        "$type": "fontWeight"
+      }
+    },
+    "style": {
+      "base": {
+        "$value": "Open Sans",
+        "$type": "fontFamily"
+      },
+      "display": {
+        "$value": "Bungee (400)",
+        "$type": "fontFamily"
+      }
+    }
+  },
+  "color": {
+    "primary": {
+      "$type": "color",
+      "$value": "#E03ED7"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "#801B7A"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "#89D3FF"
+    },
+    "pure-white": {
+      "$type": "color",
+      "$value": "#FF3300"
+    },
+    "dark": {
+      "$type": "color",
+      "$value": "#000000"
+    }
+  },
+  "button": {
+    "primary":{
+      "background": {
+        "$value": "{color.primary}"
+      },
+      "title-weight": {
+        "$value": "{typography.size.base}"
+      }
+    }
+  }
+}

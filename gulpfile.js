@@ -8,15 +8,18 @@ const {
   series, 
   paralell 
 } = require('gulp');
+
 const uglify = require('gulp-uglify');
 const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
 const browsersync = require('browser-sync').create();
 
 const jssource = 'app/js/*.js';
-const csssource = 'app/styles/*.scss';
 const jsdest = 'dest/js';
+const csssource = 'app/styles/*.scss';
 const cssdest ='dest/styles';
+const tokensource = 'app/tokens/*.json';
+const tokendest = 'app/tokens/color';
 
 function buildJs() {
   return src(jssource)
@@ -50,10 +53,11 @@ function browsersyncReload(cb){
 
 function watchTask(){
   watch('*.html', browsersyncReload);
-  watch(['app/**/*.scss', 'app/**/*.js'], series(buildStyles, buildJs, browsersyncReload));
+  watch(['app/tokens/*.json', 'app/**/*.scss', 'app/**/*.js'], series( buildStyles, buildJs, browsersyncReload));
 }
 
 exports.default = series(
+  buildTokens,
   buildStyles, 
   buildJs, 
   browsersyncServe,
