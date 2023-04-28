@@ -57,7 +57,6 @@ function watchTask(){
 }
 
 exports.default = series(
-  buildTokens,
   buildStyles, 
   buildJs, 
   browsersyncServe,
