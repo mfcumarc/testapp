@@ -1,7 +1,6 @@
-@use 'variables' as variables;
+@use 'variables' as vars;
 
 /* CSS reset styles */
-/* comment to see if everythign is broken and the world is ending */
 
 html {
   box-sizing: border-box;
@@ -45,13 +44,13 @@ h1, h2 {
 
 h1 {
   margin-bottom: 24px;
-  color: variables.$font-base-light;
+  color: vars.$font-base-light;
   text-align: center;
   font-size: 48px;
 }
 
 .navbar {
-  background-color: variables.$color-base-primary;
+  background-color: vars.$color-base-primary;
 }
 
 nav.main-nav {
@@ -59,7 +58,7 @@ nav.main-nav {
   background-repeat: no-repeat;
   background-position: 0 10px;
   padding-left: 60px;
-  color: variables.$font-base-light;
+  color: vars.$font-base-light;
   float: left;
   text-align: right;
   font-family: "Bungee", serif;
@@ -72,15 +71,15 @@ nav.main-nav {
         transition: all 0.3s;
     }
     a.active {
-        border-bottom: solid 2px variables.$color-base-pure-white !important;
+        border-bottom: solid 2px vars.$color-base-pure-white !important;
     }
     a:link, a:visited {
-        color: variables.$color-base-pure-white;
+        color: vars.$color-base-pure-white;
         text-decoration: none;
         border-bottom: solid 2px transparent;
     }
     a:hover, nav.main-nav a:active {
-        color: variables.$color-base-accent;
+        color: vars.$color-base-accent;
         text-decoration: none;
     }
 }
@@ -115,7 +114,7 @@ nav.main-nav {
     background-attachment: fixed;
     background-position: center;
     h1, h2 {
-        color: variables.$color-base-pure-white;
+        color: vars.$color-base-pure-white;
     }
     h1 {
         font-size: 28px;
@@ -130,7 +129,7 @@ nav.main-nav {
 }
 
 .headline {
-  color: variables.$color-base-pure-white;
+  color: vars.$color-base-pure-white;
   margin: auto;
   text-align: center;
   padding-top: 25%;
@@ -142,16 +141,16 @@ nav.main-nav {
 button {
   font-family: "Bungee", serif;
   font-size: 18px;
-  color: variables.$font-base-light;
+  color: vars.$font-base-light;
   padding: 0 10px;
   width: 100%;
   line-height: 48px;
   border: none;
-  background-color: variables.$color-base-primary;
+  background-color: vars.$color-base-primary;
   transition: all 0.3s;
   
   &:hover, &:active {
-    background-color: variables.$color-base-accent;
+    background-color: vars.$color-base-accent;
   }
 }
 
