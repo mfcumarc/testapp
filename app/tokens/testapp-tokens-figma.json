@@ -1,6 +1,10 @@
 {
     "global": {
       "color": {
+        "test-red": {
+        "value": "#FF3300",
+        "type": "color"
+        },
         "primary": {
           "value": "#E03ED7",
           "type": "color"
