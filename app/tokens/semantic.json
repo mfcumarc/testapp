@@ -1,0 +1,99 @@
+{
+  "display": {
+    "one": {
+      "value": {
+        "fontFamily": "{display}",
+        "fontWeight": "{default}",
+        "lineHeight": "{leading.display-one}",
+        "fontSize": "{display-one}"
+      },
+      "type": "typography"
+    },
+    "two": {
+      "value": {
+        "fontFamily": "{display}",
+        "fontWeight": "{bold}",
+        "lineHeight": "{leading.display-two}",
+        "fontSize": "{display-two}"
+      },
+      "type": "typography"
+    },
+    "three": {
+      "value": {
+        "fontFamily": "{display}",
+        "fontWeight": "{bold}",
+        "lineHeight": "{leading.display-three}",
+        "fontSize": "{display-three}"
+      },
+      "type": "typography"
+    },
+    "headline": {
+      "value": {
+        "fontFamily": "{display}",
+        "fontWeight": "{bold}",
+        "lineHeight": "{leading.headline}",
+        "fontSize": "{headline}"
+      },
+      "type": "typography"
+    }
+  },
+  "title": {
+    "lg": {
+      "value": {
+        "fontFamily": "{display}",
+        "fontWeight": "{bold}",
+        "lineHeight": "{leading.title-lg}",
+        "fontSize": "{title-lg}"
+      },
+      "type": "typography"
+    },
+    "thin": {
+      "value": {
+        "fontFamily": "{body}",
+        "fontWeight": "{default}",
+        "lineHeight": "{leading.title-thin}",
+        "fontSize": "{title-thin}"
+      },
+      "type": "typography"
+    },
+    "md": {
+      "value": {
+        "fontFamily": "{display}",
+        "fontWeight": "{bold}",
+        "lineHeight": "{leading.headline}",
+        "fontSize": "{headline}"
+      },
+      "type": "typography"
+    }
+  },
+  "body": {
+    "pull-text": {
+      "value": {
+        "fontFamily": "{body}",
+        "fontWeight": "{bold}",
+        "lineHeight": "{leading.pull-text}",
+        "fontSize": "{pull-text}"
+      },
+      "type": "typography"
+    },
+    "title-thin": {
+      "value": {
+        "fontFamily": "{body}",
+        "fontWeight": "{default}",
+        "lineHeight": "{leading.title-thin}",
+        "fontSize": "{title-thin}"
+      },
+      "type": "typography"
+    }
+  },
+  "cta-button": {
+    "padding-x": {
+      "value": "{padding-x.button-cta}",
+      "type": "spacing"
+    },
+    "padding-y": {
+      "value": "{padding-y.button-cta}",
+      "type": "spacing"
+    }
+  }
+}

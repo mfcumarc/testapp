@@ -1,0 +1,148 @@
+{
+  "color": {
+    "primary": {
+      "value": "#E03ED7",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#801B7A",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "#F4998E",
+      "type": "color"
+    },
+    "accent": {
+      "value": "#89D3FF",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "pure-white": {
+      "value": "#FFFFFF",
+      "type": "color"
+    }
+  },
+  "padding-x": {
+    "button-cta": {
+      "value": "60",
+      "type": "spacing",
+      "description": "Default x padding on CTA buttons."
+    }
+  },
+  "padding-y": {
+    "button-cta": {
+      "value": "16",
+      "type": "spacing",
+      "description": "Default y padding on CTA buttons."
+    }
+  },
+  "bold": {
+    "value": "700",
+    "type": "fontWeights"
+  },
+  "default": {
+    "value": "400",
+    "type": "fontWeights"
+  },
+  "display": {
+    "value": "Bungee",
+    "type": "fontFamilies"
+  },
+  "body": {
+    "value": "Open Sans",
+    "type": "fontFamilies"
+  },
+  "display-one": {
+    "value": "48",
+    "type": "fontSizes"
+  },
+  "display-two": {
+    "value": "44",
+    "type": "fontSizes"
+  },
+  "display-three": {
+    "value": "28",
+    "type": "fontSizes"
+  },
+  "headline": {
+    "value": "24",
+    "type": "fontSizes"
+  },
+  "title-lg": {
+    "value": "36",
+    "type": "fontSizes"
+  },
+  "title-thin": {
+    "value": "24",
+    "type": "fontSizes"
+  },
+  "title-md": {
+    "value": "18",
+    "type": "fontSizes"
+  },
+  "pull-text": {
+    "value": "24",
+    "type": "fontSizes"
+  },
+  "detail-text": {
+    "value": "18",
+    "type": "fontSizes"
+  },
+  "paragraph": {
+    "value": "18",
+    "type": "fontSizes"
+  },
+  "detail-sm": {
+    "value": "14",
+    "type": "fontSizes"
+  },
+  "leading": {
+    "display-one": {
+      "value": "56",
+      "type": "lineHeights"
+    },
+    "display-two": {
+      "value": "48",
+      "type": "lineHeights"
+    },
+    "display-three": {
+      "value": "36",
+      "type": "lineHeights"
+    },
+    "headline": {
+      "value": "30",
+      "type": "lineHeights"
+    },
+    "title-lg": {
+      "value": "48",
+      "type": "lineHeights"
+    },
+    "title-thin": {
+      "value": "32",
+      "type": "lineHeights"
+    },
+    "title-md": {
+      "value": "24",
+      "type": "lineHeights"
+    },
+    "pull-text": {
+      "value": "32",
+      "type": "lineHeights"
+    },
+    "details-caps": {
+      "value": "24",
+      "type": "lineHeights"
+    },
+    "paragraph": {
+      "value": "24",
+      "type": "lineHeights"
+    },
+    "detail-small": {
+      "value": "16",
+      "type": "lineHeights"
+    }
+  }
+}
