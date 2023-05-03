@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 28 Apr 2023 16:19:00 GMT
+// Generated on Wed, 03 May 2023 15:34:00 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -14,7 +14,13 @@ ColorBasePrimary,
 ColorBaseSecondary,
 ColorBaseAccent,
 ColorBasePureWhite,
-ColorBaseDark
+ColorBaseDark,
+ColorPrimary,
+ColorSecondary,
+ColorTertiary,
+ColorAccent,
+ColorBlack,
+ColorPureWhite
 };
 
 @interface StyleDictionaryColor : NSObject
