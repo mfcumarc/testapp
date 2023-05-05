@@ -179,6 +179,7 @@ button:hover, button:active {
 }
 
 .title-bar {
+  color: #750c0c;
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
@@ -203,7 +204,7 @@ button:hover, button:active {
 
 .pkg {
   background-color: #FFFFFF;
-  color: #333333;
+  color: #750c0c;
   margin-bottom: 30px;
   padding: 0 20px 20px;
 }
