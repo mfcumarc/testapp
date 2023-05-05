@@ -107,7 +107,7 @@ nav.main-nav a:hover, nav.main-nav nav.main-nav a:active {
   color: #FFFFFF;
 }
 .hero h1 {
-  font-size: 28px;
+  font: 400 28px/36px "Bungee";
   margin: 24px 0 0;
 }
 .hero h2 {
@@ -152,9 +152,9 @@ button:hover, button:active {
 .lineup {
   padding: 60px 0 80px;
   font: 400 18px/24px "Bungee";
-  color: #89d3ff;
+  color: #89D3FF;
   text-align: center;
-  background: rgb(175, 60, 171);
+  background: #801B7A;
   background: url(../img/bg-lineup.png), -webkit-linear-gradient(50deg, rgb(175, 60, 171) 0%, rgb(128, 27, 122) 83%);
 }
 
@@ -202,25 +202,26 @@ button:hover, button:active {
 }
 
 .pkg {
-  background-color: #fff;
+  background-color: #FFFFFF;
+  color: #333333;
   margin-bottom: 30px;
   padding: 0 20px 20px;
 }
 .pkg button {
-  padding: 12px 12px;
+  padding: 12px 10px;
 }
 
 .pkg-header {
   background-color: #801B7A;
-  color: #fff;
-  font: normal 18px/32px "Bungee", Serif;
-  padding: 10px 0 0 12px;
+  color: #FFFFFF;
+  font: 400 18px/24px "Bungee";
+  padding: 10px 0 4px 12px;
   margin: 0 -20px 28px;
 }
 
 .pkg-price {
   margin: 0 0 10px;
-  font: normal 44px/44px "Bungee", Serif;
+  font: 400 44px/48px "Bungee";
 }
 
 .pkg-desc {

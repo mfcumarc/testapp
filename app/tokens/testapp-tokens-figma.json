@@ -200,7 +200,7 @@
               "type": "other"
             },
             "md": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}px/{mf.global.font.line-height.headline}px {mf.global.font.family.display}",
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-md}px/{mf.global.font.line-height.title-md}px {mf.global.font.family.display}",
               "type": "other"
             }
           },
@@ -221,13 +221,23 @@
         }
       },
       "spacing": {
-        "cta-button": {
-          "padding-x": {
-            "value": "{mf.global.spacing.padding-x.button-cta}",
+        "padding-x": {
+          "button": {
+            "value": "{mf.global.spacing.padding-x.button}{mf.global.unit.default}",
             "type": "spacing"
           },
-          "padding-y": {
-            "value": "{mf.global.spacing.padding-y.button-cta}",
+          "button-cta": {
+            "value": "{mf.global.spacing.padding-x.button-cta}{mf.global.unit.default}",
+            "type": "spacing"
+          }
+        },
+        "padding-y": {
+          "button": {
+            "value": "{mf.global.spacing.padding-y.button}{mf.global.unit.default}",
+            "type": "spacing"
+          },
+          "button-cta": {
+            "value": "{mf.global.spacing.padding-y.button-cta}{mf.global.unit.default}",
             "type": "spacing"
           }
         }

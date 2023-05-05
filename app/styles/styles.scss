@@ -112,7 +112,7 @@ nav.main-nav {
         color: vars.$mf-global-color-pure-white;
     }
     h1 {
-        font-size: 28px;
+        font: vars.$mf-alias-font-size-display-three;
         margin: 24px 0 0;
     }
     h2 {
@@ -146,7 +146,7 @@ button {
 }
 
 .cta {
-  padding: vars.$mf-alias-spacing-cta-button-padding-y vars.$mf-alias-spacing-cta-button-padding-x;
+  padding: vars.$mf-alias-spacing-padding-y-button-cta vars.$mf-alias-spacing-padding-x-button-cta;
   width: auto;
 }
 
@@ -159,9 +159,9 @@ button {
 .lineup {
   padding: 60px 0 80px;
   font: vars.$mf-alias-font-size-title-md;
-  color: #89d3ff;
+  color: vars.$mf-global-color-accent;
   text-align: center;
-  background: rgb(175, 60, 171);
+  background: vars.$mf-global-color-secondary;
   background: url(../img/bg-lineup.png), -webkit-linear-gradient(50deg, rgba(175,60,171,1) 0%, rgba(128,27,122,1) 83%);
 }
 
@@ -210,31 +210,33 @@ button {
 }
 
 .pkg {
-  background-color: #fff;
+  background-color: vars.$mf-global-color-pure-white;
+  color: vars.$mf-global-color-black;
   margin-bottom: 30px;
   padding: 0 20px 20px;
 
   button {
-    padding: vars.$mf-alias-spacing-button-padding-y vars.$mf-alias-spacing-button-padding-y;
+    padding: vars.$mf-alias-spacing-padding-y-button vars.$mf-alias-spacing-padding-x-button;
   }
 }
 
 .pkg-header {
-  background-color: #801B7A;
-  color: #fff;
-  font: normal 18px/32px "Bungee", Serif ;
-  padding: 10px 0 0 12px;
+  background-color: vars.$mf-global-color-secondary;
+  color: vars.$mf-global-color-pure-white;
+  font: vars.$mf-alias-font-size-title-md ;
+  padding: 10px 0 4px 12px;
   margin: 0 -20px 28px;
 }
 
 .pkg-price {
   margin: 0 0 10px;
-  font: normal 44px/44px "Bungee", Serif ;
+  font: vars.$mf-alias-font-size-display-two;
 }
 
 .pkg-desc {
   font: vars.$mf-alias-font-size-title-thin;
 }
+
 
 .pkg-charges {
   font: vars.$mf-alias-font-size-body-detail-small;
