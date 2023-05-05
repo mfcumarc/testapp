@@ -18,9 +18,9 @@
           "value": "#89D3FF",
           "type": "color"
         },
-        "black": {
-          "value": "#333333",
-          "type": "color"
+          "value": "#750c0c",
+          "type": "color",
+          "description": "Dark color for text"
         },
         "pure-white": {
           "value": "#FFFFFF",
