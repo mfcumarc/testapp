@@ -19,7 +19,7 @@
           "type": "color"
         },
         "black": {
-          "value": "#000000",
+          "value": "#333333",
           "type": "color"
         },
         "pure-white": {
@@ -44,7 +44,7 @@
         }
       },
       "font": {
-        "weight":{
+        "weight": {
           "bold": {
             "value": "700",
             "type": "fontWeight"
@@ -162,36 +162,45 @@
       "font": {
         "size": {
           "display": {
-            "one": {              
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-one}px/{mf.global.font.line-height.display-one}px {mf.global.font.family.display}"
+            "one": {
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-one}px/{mf.global.font.line-height.display-one}px {mf.global.font.family.display}",
+              "type": "other"
             },
             "two": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-two}px/{mf.global.font.line-height.display-two}px {mf.global.font.family.display}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-two}px/{mf.global.font.line-height.display-two}px {mf.global.font.family.display}",
+              "type": "other"
             },
             "three": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-three}px/{mf.global.font.line-height.display-three}px {mf.global.font.family.display}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-three}px/{mf.global.font.line-height.display-three}px {mf.global.font.family.display}",
+              "type": "other"
             },
             "headline": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}px/{mf.global.font.line-height.headline}px {mf.global.font.family.display}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}px/{mf.global.font.line-height.headline}px {mf.global.font.family.display}",
+              "type": "other"
             }
-           },
+          },
           "title": {
             "lg": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-lg}px/{mf.global.font.line-height.title-lg}px {mf.global.font.family.display}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-lg}px/{mf.global.font.line-height.title-lg}px {mf.global.font.family.display}",
+              "type": "other"
             },
             "thin": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}px/{mf.global.font.line-height.title-thin}px {mf.global.font.family.body}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}px/{mf.global.font.line-height.title-thin}px {mf.global.font.family.body}",
+              "type": "other"
             },
             "md": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}px/{mf.global.font.line-height.headline}px {mf.global.font.family.display}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}px/{mf.global.font.line-height.headline}px {mf.global.font.family.display}",
+              "type": "other"
             }
           },
           "body": {
             "pull-text": {
-              "value": "{mf.global.font.weight.bold} {mf.global.font.size.pull-text}px/{mf.global.font.line-height.pull-text}px {mf.global.font.family.body}"
+              "value": "{mf.global.font.weight.bold} {mf.global.font.size.pull-text}px/{mf.global.font.line-height.pull-text}px {mf.global.font.family.body}",
+              "type": "other"
             },
             "title-thin": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}px/{mf.global.font.line-height.title-thin}px {mf.global.font.family.body}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}px/{mf.global.font.line-height.title-thin}px {mf.global.font.family.body}",
+              "type": "other"
             }
           }
         }
@@ -209,5 +218,11 @@
         }
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "mf"
+    ]
   }
 }
