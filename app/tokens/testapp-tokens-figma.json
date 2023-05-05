@@ -19,8 +19,9 @@
           "type": "color"
         },
         "black": {
-          "value": "#333333",
-          "type": "color"
+          "value": "#911111",
+          "type": "color",
+          "description": "Dark color for text"
         },
         "pure-white": {
           "value": "#FFFFFF",
@@ -29,9 +30,6 @@
       },
       "spacing": {
         "padding-x": {
-          "button": {
-            "value": "10"
-          },
           "button-cta": {
             "value": "60",
             "type": "spacing",
@@ -39,9 +37,6 @@
           }
         },
         "padding-y": {
-          "button": {
-            "value": "12"
-          },
           "button-cta": {
             "value": "16",
             "type": "spacing",
@@ -162,11 +157,6 @@
             "type": "lineHeight"
           }
         }
-      },
-      "unit": {
-        "default": {
-          "value": "px"
-        }
       }
     },
     "alias": {
@@ -200,44 +190,30 @@
               "type": "other"
             },
             "md": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-md}px/{mf.global.font.line-height.title-md}px {mf.global.font.family.display}",
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}px/{mf.global.font.line-height.headline}px {mf.global.font.family.display}",
               "type": "other"
             }
           },
           "body": {
-            "paragraph": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.paragraph}{mf.global.unit.default}/{mf.global.font.line-height.paragraph}{mf.global.unit.default} {mf.global.font.family.body}"
-            },
             "pull-text": {
-              "value": "{mf.global.font.weight.bold} {mf.global.font.size.pull-text}{mf.global.unit.default}/{mf.global.font.line-height.pull-text}{mf.global.unit.default} {mf.global.font.family.body}"
+              "value": "{mf.global.font.weight.bold} {mf.global.font.size.pull-text}px/{mf.global.font.line-height.pull-text}px {mf.global.font.family.body}",
+              "type": "other"
             },
             "title-thin": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}{mf.global.unit.default}/{mf.global.font.line-height.title-thin}{mf.global.unit.default} {mf.global.font.family.body}"
-            },
-            "detail-small": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.detail-sm}{mf.global.unit.default}/{mf.global.font.line-height.detail-small}{mf.global.unit.default} {mf.global.font.family.body}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}px/{mf.global.font.line-height.title-thin}px {mf.global.font.family.body}",
+              "type": "other"
             }
           }
         }
       },
       "spacing": {
-        "padding-x": {
-          "button": {
-            "value": "{mf.global.spacing.padding-x.button}{mf.global.unit.default}",
+        "cta-button": {
+          "padding-x": {
+            "value": "{mf.global.spacing.padding-x.button-cta}",
             "type": "spacing"
           },
-          "button-cta": {
-            "value": "{mf.global.spacing.padding-x.button-cta}{mf.global.unit.default}",
-            "type": "spacing"
-          }
-        },
-        "padding-y": {
-          "button": {
-            "value": "{mf.global.spacing.padding-y.button}{mf.global.unit.default}",
-            "type": "spacing"
-          },
-          "button-cta": {
-            "value": "{mf.global.spacing.padding-y.button-cta}{mf.global.unit.default}",
+          "padding-y": {
+            "value": "{mf.global.spacing.padding-y.button-cta}",
             "type": "spacing"
           }
         }
