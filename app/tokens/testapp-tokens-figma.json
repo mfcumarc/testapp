@@ -19,7 +19,7 @@
           "type": "color"
         },
         "black": {
-          "value": "#333333",
+          "value": "#000000",
           "type": "color"
         },
         "pure-white": {
@@ -27,24 +27,8 @@
           "type": "color"
         }
       },
-      "spacing": {
-        "padding-x": {
-          "button-cta": {
-            "value": "60",
-            "type": "spacing",
-            "description": "Default x padding on CTA buttons."
-          }
-        },
-        "padding-y": {
-          "button-cta": {
-            "value": "16",
-            "type": "spacing",
-            "description": "Default y padding on CTA buttons."
-          }
-        }
-      },
       "font": {
-        "weight": {
+        "weight":{
           "bold": {
             "value": "700",
             "type": "fontWeight"
@@ -156,73 +140,101 @@
             "type": "lineHeight"
           }
         }
+      },
+      "spacing": {
+        "padding-x": {
+          "button": {
+            "value": "10"
+          },
+          "button-cta": {
+            "value": "60",
+            "type": "spacing",
+            "description": "Default x padding on CTA buttons."
+          }
+        },
+        "padding-y": {
+          "button": {
+            "value": "12"
+          },
+          "button-cta": {
+            "value": "16",
+            "type": "spacing",
+            "description": "Default y padding on CTA buttons."
+          }
+        }
+      },
+      "unit": {
+        "default": {
+          "value": "px"
+        }
       }
     },
     "alias": {
       "font": {
         "size": {
           "display": {
-            "one": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-one}px/{mf.global.font.line-height.display-one}px {mf.global.font.family.display}",
-              "type": "other"
+            "one": {              
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-one}{mf.global.unit.default}/{mf.global.font.line-height.display-one}{mf.global.unit.default} {mf.global.font.family.display}"
             },
             "two": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-two}px/{mf.global.font.line-height.display-two}px {mf.global.font.family.display}",
-              "type": "other"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-two}{mf.global.unit.default}/{mf.global.font.line-height.display-two}{mf.global.unit.default} {mf.global.font.family.display}"
             },
             "three": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-three}px/{mf.global.font.line-height.display-three}px {mf.global.font.family.display}",
-              "type": "other"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.display-three}{mf.global.unit.default}/{mf.global.font.line-height.display-three}{mf.global.unit.default} {mf.global.font.family.display}"
             },
             "headline": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}px/{mf.global.font.line-height.headline}px {mf.global.font.family.display}",
-              "type": "other"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}{mf.global.unit.default}/{mf.global.font.line-height.headline}{mf.global.unit.default} {mf.global.font.family.display}"
             }
-          },
+           },
           "title": {
             "lg": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-lg}px/{mf.global.font.line-height.title-lg}px {mf.global.font.family.display}",
-              "type": "other"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-lg}{mf.global.unit.default}/{mf.global.font.line-height.title-lg}{mf.global.unit.default} {mf.global.font.family.display}"
             },
             "thin": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}px/{mf.global.font.line-height.title-thin}px {mf.global.font.family.body}",
-              "type": "other"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}{mf.global.unit.default}/{mf.global.font.line-height.title-thin}{mf.global.unit.default} {mf.global.font.family.body}"
             },
             "md": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}px/{mf.global.font.line-height.headline}px {mf.global.font.family.display}",
-              "type": "other"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-md}{mf.global.unit.default}/{mf.global.font.line-height.title-md}{mf.global.unit.default} {mf.global.font.family.display}"
             }
           },
           "body": {
+            "paragraph": {
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.paragraph}{mf.global.unit.default}/{mf.global.font.line-height.paragraph}{mf.global.unit.default} {mf.global.font.family.body}"
+            },
             "pull-text": {
-              "value": "{mf.global.font.weight.bold} {mf.global.font.size.pull-text}px/{mf.global.font.line-height.pull-text}px {mf.global.font.family.body}",
-              "type": "other"
+              "value": "{mf.global.font.weight.bold} {mf.global.font.size.pull-text}{mf.global.unit.default}/{mf.global.font.line-height.pull-text}{mf.global.unit.default} {mf.global.font.family.body}"
             },
             "title-thin": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}px/{mf.global.font.line-height.title-thin}px {mf.global.font.family.body}",
-              "type": "other"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}{mf.global.unit.default}/{mf.global.font.line-height.title-thin}{mf.global.unit.default} {mf.global.font.family.body}"
+            },
+            "detail-small": {
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.detail-sm}{mf.global.unit.default}/{mf.global.font.line-height.detail-small}{mf.global.unit.default} {mf.global.font.family.body}"
             }
           }
         }
       },
       "spacing": {
-        "cta-button": {
+        "button": {
           "padding-x": {
-            "value": "{mf.global.spacing.padding-x.button-cta}",
+            "value": "{mf.global.spacing.padding-x.button}{mf.global.unit.default}",
             "type": "spacing"
           },
           "padding-y": {
-            "value": "{mf.global.spacing.padding-y.button-cta}",
+            "value": "{mf.global.spacing.padding-y.button}{mf.global.unit.default}",
+            "type": "spacing"
+          }
+        },
+        "cta-button": {
+          "padding-x": {
+            "value": "{mf.global.spacing.padding-x.button-cta}{mf.global.unit.default}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{mf.global.spacing.padding-y.button-cta}{mf.global.unit.default}",
             "type": "spacing"
           }
         }
       }
     }
-  },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "mf"
-    ]
   }
 }
