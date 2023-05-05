@@ -19,7 +19,7 @@
           "type": "color"
         },
         "black": {
-          "value": "#000000",
+          "value": "#333333",
           "type": "color"
         },
         "pure-white": {
@@ -28,7 +28,7 @@
         }
       },
       "font": {
-        "weight":{
+        "weight": {
           "bold": {
             "value": "700",
             "type": "fontWeight"
@@ -185,7 +185,7 @@
             "headline": {
               "value": "{mf.global.font.weight.default} {mf.global.font.size.headline}{mf.global.unit.default}/{mf.global.font.line-height.headline}{mf.global.unit.default} {mf.global.font.family.display}"
             }
-           },
+          },
           "title": {
             "lg": {
               "value": "{mf.global.font.weight.default} {mf.global.font.size.title-lg}{mf.global.unit.default}/{mf.global.font.line-height.title-lg}{mf.global.unit.default} {mf.global.font.family.display}"
@@ -236,5 +236,11 @@
         }
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "mf"
+    ]
   }
 }
