@@ -28,8 +28,7 @@ img {
 /* Page styles */
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font: vars.$mf-alias-font-size-body-paragraph;
 }
 
 .container-960 {
@@ -38,19 +37,15 @@ body {
   overflow: hidden;
 }
 
-h1, h2 {
-  font-family: "Bungee", Helvetica, sans-serif;
-}
-
 h1 {
   margin-bottom: 24px;
-  color: vars.$font-base-light;
+  color: vars.$mf-global-color-pure-white;
   text-align: center;
-  font-size: 48px;
+  font: vars.$mf-alias-font-size-display-one;
 }
 
 .navbar {
-  background-color: vars.$color-base-primary;
+  background-color: vars.$mf-global-color-primary;
 }
 
 nav.main-nav {
@@ -58,10 +53,10 @@ nav.main-nav {
   background-repeat: no-repeat;
   background-position: 0 10px;
   padding-left: 60px;
-  color: vars.$font-base-light;
+  color: vars.$mf-global-color-pure-white;
   float: left;
   text-align: right;
-  font-family: "Bungee", serif;
+  font: vars.$mf-alias-font-size-title-md;
   text-transform: uppercase;
   height: 60px;
   line-height: 60px;
@@ -71,15 +66,15 @@ nav.main-nav {
         transition: all 0.3s;
     }
     a.active {
-        border-bottom: solid 2px vars.$color-base-pure-white !important;
+        border-bottom: solid 2px vars.$mf-global-color-pure-white !important;
     }
     a:link, a:visited {
-        color: vars.$color-base-pure-white;
+        color: vars.$mf-global-color-pure-white;
         text-decoration: none;
         border-bottom: solid 2px transparent;
     }
     a:hover, nav.main-nav a:active {
-        color: vars.$color-base-accent;
+        color: vars.$mf-global-color-accent;
         text-decoration: none;
     }
 }
@@ -114,22 +109,20 @@ nav.main-nav {
     background-attachment: fixed;
     background-position: center;
     h1, h2 {
-        color: vars.$color-base-pure-white;
+        color: vars.$mf-global-color-pure-white;
     }
     h1 {
         font-size: 28px;
         margin: 24px 0 0;
     }
     h2 {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 300;
+        font: vars.$mf-alias-font-size-body-paragraph;
         margin: 12px 0 24px;
-        font-size: 18px;
     }
 }
 
 .headline {
-  color: vars.$color-base-pure-white;
+  color: vars.$mf-global-color-pure-white;
   margin: auto;
   text-align: center;
   padding-top: 25%;
@@ -139,24 +132,21 @@ nav.main-nav {
 }
 
 button {
-  font-family: "Bungee", serif;
-  font-size: 18px;
-  color: vars.$font-base-light;
+  font: vars.$mf-alias-font-size-title-md;
+  color: vars.$mf-global-color-pure-white;
   padding: 0 10px;
   width: 100%;
-  line-height: 48px;
   border: none;
-  background-color: vars.$color-base-primary;
+  background-color: vars.$mf-global-color-primary;
   transition: all 0.3s;
   
   &:hover, &:active {
-    background-color: vars.$color-base-accent;
+    background-color: vars.$mf-global-color-accent;
   }
 }
 
 .cta {
-  padding: 0 60px;
-  line-height: 56px;
+  padding: vars.$mf-alias-spacing-cta-button-padding-y vars.$mf-alias-spacing-cta-button-padding-x;
   width: auto;
 }
 
@@ -168,16 +158,16 @@ button {
 
 .lineup {
   padding: 60px 0 80px;
-  font-family: "Bungee", serif;
+  font: vars.$mf-alias-font-size-title-md;
   color: #89d3ff;
   text-align: center;
-  font-size: 24px;
   background: rgb(175, 60, 171);
   background: url(../img/bg-lineup.png), -webkit-linear-gradient(50deg, rgba(175,60,171,1) 0%, rgba(128,27,122,1) 83%);
 }
 
 .lineup h1 {
-  color: #89D3FF;
+  font: vars.$mf-alias-font-size-display-one;
+  color: vars.$mf-global-color-accent;
 }
 
 .headliners, .features {
@@ -200,17 +190,18 @@ button {
   position: absolute;
   bottom: 0;
   width: 632px;
-  padding: 0 16px;
+  padding: 10px 16px;
+
   .band-name {
-    font: normal 24px/50px "Bungee", serif;
+    font: vars.$mf-alias-font-size-display-headline;
     float: left;
     }
-}
-
-.title-bar .night {
-  font: normal 300 18px/50px "Open Sans", sans-serif;
-  text-transform: uppercase;
-  float: right;
+  .night {
+    font: vars.$mf-alias-font-size-body-paragraph;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 4px;
+  }
 }
 
 .tickets {
@@ -222,6 +213,10 @@ button {
   background-color: #fff;
   margin-bottom: 30px;
   padding: 0 20px 20px;
+
+  button {
+    padding: vars.$mf-alias-spacing-button-padding-y vars.$mf-alias-spacing-button-padding-y;
+  }
 }
 
 .pkg-header {
@@ -238,17 +233,17 @@ button {
 }
 
 .pkg-desc {
-  font: normal 300 24px/32px "Open Sans", sans-serif;
+  font: vars.$mf-alias-font-size-title-thin;
 }
 
 .pkg-charges {
-  font: normal 300 14px/16px "Open Sans", sans-serif;
+  font: vars.$mf-alias-font-size-body-detail-small;
   margin-bottom: 20px;
 }
 
 footer {
-  background-color: #801B7A;
-  color: #FFAAFA;
+  background-color: vars.$mf-global-color-secondary;
+  color: vars.$mf-global-color-primary;
   padding: 48px 0;
   text-align: center;
 }
@@ -266,18 +261,18 @@ footer {
 /* Second level pages */
 
 .main-content {
-  background-color: #F1F1F1;
+  background-color: vars.$mf-global-color-pure-white;
 }
 
 .pull-text p {
-  font: 700 24px/32px "Open Sans", sans-serif;
+  font: vars.$mf-alias-font-size-body-pull-text;
   padding: 32px 0;
 }
 
 .feature {
   width: 470px;
-  color: #fff;
-  font: 300 18px/24px "Open Sans", sans-serif;
+  color: vars.$mf-global-color-pure-white;
+  font: vars.$mf-alias-font-size-body-paragraph;
   margin-bottom: 20px;
   float: left;
 }
@@ -291,12 +286,12 @@ footer {
 }
 
 .feature h2 {
-  font: normal 36px/36px "Bungee", serif;
+  font: vars.$mf-alias-font-size-title-lg;
   margin-bottom: 8px;
 }
 
 .description {
-  background-color: #801B7A;
+  background-color: vars.$mf-global-color-primary;
   width: 100%;
   padding: 20px;
 }
