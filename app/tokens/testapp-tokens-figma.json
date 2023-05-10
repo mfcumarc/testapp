@@ -1,6 +1,12 @@
 {
   "mf": {
     "global": {
+      "border": {
+        "radius": {
+          "value": 0,
+          "type": "border-radius"
+        }
+      },
       "color": {
         "primary": {
           "value": "#E03ED7",
@@ -26,28 +32,6 @@
         "pure-white": {
           "value": "#FFFFFF",
           "type": "color"
-        }
-      },
-      "spacing": {
-        "padding-x": {
-          "button": {
-            "value": "10"
-          },
-          "button-cta": {
-            "value": "60",
-            "type": "spacing",
-            "description": "Default x padding on CTA buttons."
-          }
-        },
-        "padding-y": {
-          "button": {
-            "value": "12"
-          },
-          "button-cta": {
-            "value": "16",
-            "type": "spacing",
-            "description": "Default y padding on CTA buttons."
-          }
         }
       },
       "font": {
@@ -164,6 +148,28 @@
           }
         }
       },
+      "spacing": {
+        "padding-x": {
+          "button": {
+            "value": "10"
+          },
+          "button-cta": {
+            "value": "60",
+            "type": "spacing",
+            "description": "Default x padding on CTA buttons."
+          }
+        },
+        "padding-y": {
+          "button": {
+            "value": "12"
+          },
+          "button-cta": {
+            "value": "16",
+            "type": "spacing",
+            "description": "Default y padding on CTA buttons."
+          }
+        }
+      },
       "unit": {
         "default": {
           "value": "px"
@@ -171,6 +177,11 @@
       }
     },
     "alias": {
+      "border": {
+        "radius": {
+          "value": "{mf.global.border.radius}{mf.global.unit.default}"
+        }
+      },
       "font": {
         "size": {
           "display": {

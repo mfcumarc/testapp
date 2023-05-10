@@ -1,17 +1,14 @@
 
 // Do not edit directly
-// Generated on Fri, 05 May 2023 20:39:02 GMT
+// Generated on Fri, 05 May 2023 20:50:16 GMT
 
+$mf-global-border-radius: 0;
 $mf-global-color-primary: #E03ED7;
 $mf-global-color-secondary: #801B7A;
 $mf-global-color-tertiary: #F4998E;
 $mf-global-color-accent: #89D3FF;
 $mf-global-color-black: #750c0c;
 $mf-global-color-pure-white: #FFFFFF;
-$mf-global-spacing-padding-x-button: 10;
-$mf-global-spacing-padding-x-button-cta: 60;
-$mf-global-spacing-padding-y-button: 12;
-$mf-global-spacing-padding-y-button-cta: 16;
 $mf-global-font-weight-bold: 700;
 $mf-global-font-weight-default: 400;
 $mf-global-font-family-display: 'Bungee';
@@ -38,7 +35,12 @@ $mf-global-font-line-height-pull-text: 32;
 $mf-global-font-line-height-details-caps: 24;
 $mf-global-font-line-height-paragraph: 24;
 $mf-global-font-line-height-detail-small: 16;
+$mf-global-spacing-padding-x-button: 10;
+$mf-global-spacing-padding-x-button-cta: 60;
+$mf-global-spacing-padding-y-button: 12;
+$mf-global-spacing-padding-y-button-cta: 16;
 $mf-global-unit-default: px;
+$mf-alias-border-radius: 0px;
 $mf-alias-font-size-display-one: 400 48px/56px 'Bungee';
 $mf-alias-font-size-display-two: 400 44px/48px 'Bungee';
 $mf-alias-font-size-display-three: 400 28px/36px 'Bungee';

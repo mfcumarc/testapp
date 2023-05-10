@@ -133,6 +133,7 @@ button {
   border: none;
   background-color: #E03ED7;
   transition: all 0.3s;
+  border-radius: 0px;
 }
 button:hover, button:active {
   background-color: #89D3FF;
