@@ -180,7 +180,7 @@ button:hover, button:active {
 }
 
 .title-bar {
-  color: #750c0c;
+  color: #000000;
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
@@ -205,7 +205,7 @@ button:hover, button:active {
 
 .pkg {
   background-color: #FFFFFF;
-  color: #750c0c;
+  color: #000000;
   margin-bottom: 30px;
   padding: 0 20px 20px;
 }
