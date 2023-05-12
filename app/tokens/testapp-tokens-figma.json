@@ -25,7 +25,7 @@
           "type": "color"
         },
         "black": {
-          "value": "#750c0c",
+          "value": "#000000",
           "type": "color",
           "description": "Dark color for text"
         },
@@ -151,7 +151,8 @@
       "spacing": {
         "padding-x": {
           "button": {
-            "value": "10"
+            "value": "10",
+            "type": "other"
           },
           "button-cta": {
             "value": "60",
@@ -161,7 +162,8 @@
         },
         "padding-y": {
           "button": {
-            "value": "12"
+            "value": "12",
+            "type": "other"
           },
           "button-cta": {
             "value": "16",
@@ -172,14 +174,16 @@
       },
       "unit": {
         "default": {
-          "value": "px"
+          "value": "px",
+          "type": "other"
         }
       }
     },
     "alias": {
       "border": {
         "radius": {
-          "value": "{mf.global.border.radius}{mf.global.unit.default}"
+          "value": "{mf.global.border.radius}{mf.global.unit.default}",
+          "type": "other"
         }
       },
       "font": {
@@ -218,16 +222,20 @@
           },
           "body": {
             "paragraph": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.paragraph}{mf.global.unit.default}/{mf.global.font.line-height.paragraph}{mf.global.unit.default} {mf.global.font.family.body}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.paragraph}{mf.global.unit.default}/{mf.global.font.line-height.paragraph}{mf.global.unit.default} {mf.global.font.family.body}",
+              "type": "other"
             },
             "pull-text": {
-              "value": "{mf.global.font.weight.bold} {mf.global.font.size.pull-text}{mf.global.unit.default}/{mf.global.font.line-height.pull-text}{mf.global.unit.default} {mf.global.font.family.body}"
+              "value": "{mf.global.font.weight.bold} {mf.global.font.size.pull-text}{mf.global.unit.default}/{mf.global.font.line-height.pull-text}{mf.global.unit.default} {mf.global.font.family.body}",
+              "type": "other"
             },
             "title-thin": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}{mf.global.unit.default}/{mf.global.font.line-height.title-thin}{mf.global.unit.default} {mf.global.font.family.body}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.title-thin}{mf.global.unit.default}/{mf.global.font.line-height.title-thin}{mf.global.unit.default} {mf.global.font.family.body}",
+              "type": "other"
             },
             "detail-small": {
-              "value": "{mf.global.font.weight.default} {mf.global.font.size.detail-sm}{mf.global.unit.default}/{mf.global.font.line-height.detail-small}{mf.global.unit.default} {mf.global.font.family.body}"
+              "value": "{mf.global.font.weight.default} {mf.global.font.size.detail-sm}{mf.global.unit.default}/{mf.global.font.line-height.detail-small}{mf.global.unit.default} {mf.global.font.family.body}",
+              "type": "other"
             }
           }
         }
