@@ -5,7 +5,7 @@
 
 This repo is part of a proof of concept demo of a design-to-code workflow that starts with a Figma file and ends with consumeable SCSS variables. 
 
-<a href="./dest/index.html">Click to see live site hosted on GitHub pages</a>
+<a href="https://mfcumarc.github.io/testapp/">Click to see live site hosted on GitHub pages</a>
 
 ***
 
